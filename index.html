@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <main
+      class="w-full h-screen bg-black flex items-center justify-center gap-6 flex-col"
+    >
+      <div class="options flex items-center justify-center gap-6">
+        <div
+          class="rock h-40 w-40 bg-red-800 rounded text-white text-4xl font-black pt-16 text-center"
+        >
+          <button>Rock</button>
+        </div>
+        <div
+          class="paper h-40 w-40 bg-blue-800 rounded text-white text-4xl font-black pt-16 text-center"
+        >
+          <button>Paper</button>
+        </div>
+        <div
+          class="scissors h-40 w-40 bg-yellow-800 rounded text-white text-4xl font-black pt-16 text-center"
+        >
+          <button>Scissors</button>
+        </div>
+      </div>
+      <div
+        class="result flex items-center justify-center gap-6 text-white text-4xl"
+      >
+        <p id="message"></p>
+        <p id="score"></p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
